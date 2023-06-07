@@ -34,8 +34,8 @@ body {
   width: 100%;
   height: 100%;
   min-height: 100vh;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../image/background.jpg);
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/background.jpg);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../image/snapedit_1686146165134.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/snapedit_1686146165134.png);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -678,29 +678,30 @@ nav .nav-list li.btn:hover a {
   background: var(--bg-color);
 }
 
-.skills .skill-content .right .php::before {
+.skills .skill-content .right .php::before{
   width: 75%;
 }
 
-.skills .skill-content .right .js::before {
-  width: 80%;
-}
-
-.skills .skill-content .right .g::before {
-  width: 35%;
-}
-
-.skills .skill-content .right .cs::before {
+.skills .skill-content .right .html::before{
   width: 85%;
 }
 
-.skills .skill-content .right .html::before {
-  width: 95%;
+.skills .skill-content .right .css::before{
+  width: 83%;
 }
 
-.skills .skill-content .right .css::before {
-  width: 95%;
+.skills .skill-content .right .js::before{
+  width: 80%;
 }
+
+.skills .skill-content .right .python::before{
+  width: 77%;
+}
+
+.skills .skill-content .right .linux::before{
+  width: 80%;
+}
+
 
 .contact {
   background: var(--latar-color);
@@ -857,6 +858,7 @@ nav .nav-list li.btn:hover a {
 .contact .contact-content .right .links li a {
   color: var(--text-color);
   text-decoration: none;
+  width: 800px;
 }
 
 .buttom {
